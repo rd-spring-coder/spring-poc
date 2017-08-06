@@ -13,6 +13,14 @@ package sample.model;
 public class ChildOne extends BaseVO {
 
 	private String instanceVarChild1;
+	private String testVar;
+	public String getTestVar() {
+		return testVar;
+	}
+
+	public void setTestVar(String testVar) {
+		this.testVar = testVar;
+	}
 
 	public String getInstanceVarChild1() {
 		return instanceVarChild1;
